@@ -4,11 +4,14 @@ class car:
     def __init__(self):
         self.a1="unknown"
         self.a2=90
+        print("This is constructor")
+
     def display(self):
         print("This is not without parameter")
 
 c1=car()
 c1.display()
+
 
 class F1:
     def __init__(self,F1car,year):
@@ -21,4 +24,3 @@ class F1:
 
 c2=F1("Mercedes",2025)
 c2.Super()
-
